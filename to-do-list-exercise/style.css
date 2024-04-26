@@ -1,0 +1,41 @@
+.to-do-wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+.to-do-wrap .title-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-wrapper {
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  background-color: #ADD8E6;
+}
+.list-wrapper:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.to-do-wrap a {
+  margin-right: 5px;
+}
+
+.list-item {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.to-do-wrap {
+  width: 20%;
+  margin: 0 auto;
+}
+
+button {
+  margin-top: 20px;
+  background: blue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 17px;
+}
